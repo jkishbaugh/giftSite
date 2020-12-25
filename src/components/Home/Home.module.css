@@ -1,3 +1,7 @@
 .Home{
-    display:flex;
+    display:block;
+    font-family: "Luckiest Guy", cursive;
+    font-size: 48px;
+    margin: auto;
+
 }

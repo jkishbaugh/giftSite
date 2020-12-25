@@ -1,4 +1,5 @@
 import './App.css';
+import "react-alice-carousel/lib/alice-carousel.css"
 import ChristmasHeader from "./components/christmasHeader/ChristmasHeader"
 import {Route, Switch} from "react-router";
 import ChristmasBody from "./components/ChristmasBody/ChristmasBody";

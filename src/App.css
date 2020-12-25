@@ -24,6 +24,16 @@
   color: white;
 }
 
+.sliderimg{
+  width: auto;
+  height: 800px;
+  object-fit: cover
+}
+
+.alice-carousel__prev-btn {
+  text-align: center;
+}
+
 .App-link {
   color: #61dafb;
 }

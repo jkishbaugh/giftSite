@@ -11,6 +11,12 @@ import img7 from "./img7.jpg"
 import img8 from "./img8.jpg"
 import img9 from "./img9.jpg"
 import img10 from "./img10.jpg"
+import img11 from "./img11.jpg"
+import img12 from "./img12.jpg"
+import img13 from "./img13.jpg"
+import img14 from "./img14.jpg"
+import img15 from "./img15.jpg"
+import img16 from "./img16.jpg"
 
 const Home = (props) => {
     return (
@@ -28,6 +34,14 @@ const Home = (props) => {
                 <img src={img8} className={"sliderimg"} alt={""}/>
                 <img src={img9} className={"sliderimg"} alt={""}/>
                 <img src={img10} className={"sliderimg"} alt={""}/>
+                <img src={img11} className={"sliderimg"} alt={""}/>
+                <img src={img12} className={"sliderimg"} alt={""}/>
+                <img src={img13} className={"sliderimg"} alt={""}/>
+                <img src={img14} className={"sliderimg"} alt={""}/>
+                <img src={img15} className={"sliderimg"} alt={""}/>
+                <img src={img16} className={"sliderimg"} alt={""}/>
+
+
             </AliceCarousel>
         </div>
     )

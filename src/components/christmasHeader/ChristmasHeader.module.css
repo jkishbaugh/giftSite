@@ -1,4 +1,10 @@
 .ChristmasHeader{
     width: 100%;
-    margin-top:-17%;
+    margin-top:-12%;
+    margin-bottom: 0;
+    height: 350px;
+}
+
+.ChristmasHeader img {
+    width: 100%;
 }

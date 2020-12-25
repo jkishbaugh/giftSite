@@ -1,0 +1,41 @@
+.FirstPage{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.FirstPage a{
+    margin: 5vh 9vh;
+
+}
+
+.FirstPage a:hover{
+    animation : swing 0.7s infinite;
+}
+
+@keyframes swing {
+    15% {
+        -webkit-transform: translateY(5px);
+        transform: translateY(5px);
+    }
+    30% {
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px);
+    }
+    50% {
+        -webkit-transform: translateY(3px);
+        transform: translateY(3px);
+    }
+    65% {
+        -webkit-transform: translateY(-3px);
+        transform: translateY(-3px);
+    }
+    80% {
+        -webkit-transform: translateY(2px);
+        transform: translateY(2px);
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
